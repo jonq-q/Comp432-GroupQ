@@ -9,4 +9,21 @@ The second task will be to analyze the output of our previously trained model an
 
 By using our trained model to predict datasets 2 and 3, we expect to have better performance for the 2nd dataset since the data is still related to the medical field. The performance for both tasks will be measured by visualizing the different feature matrices, calculating the loss and accuracy, F1, and plotting the classification of different data points. These metrics will allow scientists to gain a more comprehensive insight into how trained computer vision models react to various datasets.
 
+# How to run the code
+Go to colab.research.google.com
 
+Click on "Github" and select this repository with main branch
+
+Once the notebook is opened, run the cells until the "Importing datasets from github" section
+
+Run the first cell of that section
+
+Copy the SSH key given by the output as shown below
+
+<img width="479" alt="image" src="https://github.com/jonq-q/Comp432-GroupQ/assets/93301833/8df432c6-ec0e-4a9f-9153-d133aa987efe">
+
+Go your Github profile settings, then to SSH and GPG keys. 
+
+Click on new SSH key and paste the one copied previously
+
+Continue running the rest of the cells making sure to follow instructions in the notebook
